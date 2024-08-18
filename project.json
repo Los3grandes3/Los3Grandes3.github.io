@@ -1,0 +1,93 @@
+{
+  "title": "Artepy Game",
+  "author": "https://farremi.org/musicas-paraguayas-en-mp3/",
+  "date": "19/06/24",
+  "areaCodes": [
+    "mus"
+  ],
+  "areas": {
+    "es": "Música"
+  },
+  "levelCodes": [
+    "SEC"
+  ],
+  "levels": {
+    "es": "Secundaria (12-16)"
+  },
+  "description": {
+    "es": "https://farremi.org/musicas-paraguayas-en-mp3/"
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "artepy_game.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 38,
+  "mediaFiles": 54,
+  "totalSize": 65684169,
+  "files": [
+    "04_arroyos_y_esteros_-_efren_echeverria.mp3",
+    "05_misiones_nu_-_efren_echeverria.mp3",
+    "07_kilometro_11_-_efren_echeverria.mp3",
+    "09_paraguari_-_efren_echeverria.mp3",
+    "1712190478851.png",
+    "84573-banderas-amrica-paraguay-corazn.gif",
+    "almaguarani.mp3",
+    "artepy_game.jclic",
+    "artepy_game.jclic.js",
+    "berta-rojas-da-a-conocer-su-nuevo-album-salsa-roja-_518_315_213127__1_.jpg",
+    "berta-rojas-facebook-resized3.jpg",
+    "berta_1.png",
+    "berta_4.png",
+    "berta_rojas.jpg",
+    "berta_rojas150-resized.jpg",
+    "berta_rojas_-_un_sueno_en_la_floresta_de_agustin_pio_barrios_mangore.mp3",
+    "berta_rojas_15-resized.jpg",
+    "berta_rojas_1500-resized.jpg",
+    "berta_rojas_150000-resized.jpg",
+    "berta_rojas_1500000-resized.jpg",
+    "berta_rojas_plays_el_ultimo_canto_by_agustin_barrios.mp3",
+    "berta_rojas_plays_julia_florida.mp3",
+    "berta_rojas_plays_sueno_en_la_floresta.mp3",
+    "bertarojas_1500000-resized.jpg",
+    "efren-y-guyari063-resized.jpg",
+    "efren-y-guyari063-resized1.jpg",
+    "efren3.jpg",
+    "efren_1.jpg",
+    "efren_4.jpg",
+    "efren_echeverria.jpg",
+    "efren_echeverria_1.jpg",
+    "f__artepygame_logo_mec.png",
+    "favicon.ico",
+    "fracisco_russo-resized3.jpg",
+    "francisco-russo-especial-senales-640x360-1.png",
+    "francisco-russo.jpg",
+    "francisco_15.jpg",
+    "francisco_150-resized.jpg",
+    "francisco_russo-resized3.jpg",
+    "francisco_russo.jpg",
+    "francisco_russo_02_850.jpg",
+    "gobierno-del-paraguay_png-transparente-resized.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imagen_de_whatsapp_2024-03-14_a_las_18.05.40_56fd0073-resized2.jpg",
+    "imagen_de_whatsapp_2024-03-14_a_las_18.05.40_56fd0073-resized3.jpg",
+    "imagen_de_whatsapp_2024-03-14_a_las_18.15.07_5eda30ed-resized2.jpg",
+    "imsmanifest.xml",
+    "index.html",
+    "insignea_juan_pablo_ll_2.0-resized.jpg",
+    "logo_mec_2023-1036ed23a742e60990fcd3ba5ae2c618.png",
+    "pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg",
+    "poncho_de_francisco_russo.jpg",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "republica-del-paraguay.png.png",
+    "salsa_roja__from_fiesta_americana_.mp3",
+    "sobrero_piri-resized.jpg"
+  ]
+}

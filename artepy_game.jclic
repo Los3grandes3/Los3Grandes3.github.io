@@ -1,0 +1,2062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="artepy_game" version="0.1.3">
+ <settings>
+  <title>Artepy Game</title>
+  <revision description="created" date="6/19/24" />
+  <author name="https://farremi.org/musicas-paraguayas-en-mp3/" />
+  <description>
+   <p>https://farremi.org/musicas-paraguayas-en-mp3/</p>
+  </description>
+  <descriptors area-codes="mus" level-codes="SEC" />
+  <skin file="@orange.xml" />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es">
+    <p>https://farremi.org/musicas-paraguayas-en-mp3/</p>
+   </description>
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="1 Pagina Principal" name="1_Pantalla principal" navButtons="fwd">
+   <jump tag="2_2da Portada" id="forward" />
+  </item>
+  <item id="2_2da Portada" name="2- Segunda Portada">
+   <jump tag="3_Biografia" id="forward" />
+   <jump tag="1 Pagina Principal" id="back" />
+  </item>
+  <item id="3_Biografia" name="3_Biografias">
+   <jump action="STOP" id="forward" />
+   <jump tag="2_2da Portada" id="back" />
+  </item>
+  <item id="3.1 Efren" name="3.1 Efren">
+   <jump tag="3_Biografia" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item id="3.2 Berta Rojas" name="3.2 Berta Rojas">
+   <jump tag="3_Biografia" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item id="3.3 Francisco Ruso" name="3.3 Francisco Ruso">
+   <jump tag="3_Biografia" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item id="4_Lista de Actividades" name="4_ Lista de Actividades">
+   <jump tag="14-Pantalla Final" id="forward" />
+   <jump tag="3_Biografia" id="back" />
+  </item>
+  <item id="5_EFREN" name="5_Efren">
+   <jump tag="4_Lista de Actividades" id="forward" />
+   <jump tag="4_Lista de Actividades" id="back" />
+  </item>
+  <item id="5_memo_efen_1" name="5_MEMO_EFREN 1">
+   <jump tag="5_EFREN" id="forward" />
+   <jump tag="5_EFREN" id="back" />
+  </item>
+  <item id="5_MEMO_EFREN_2" name="5_MEMO_EFREN_2">
+   <jump tag="5_EFREN" id="forward" />
+   <jump tag="5_EFREN" id="back" />
+  </item>
+  <item id="5_MEMO_EFREN_3" name="5_MEMO_EFREN_3">
+   <jump tag="5_EFREN" id="forward" />
+   <jump tag="5_EFREN" id="back" />
+  </item>
+  <item id="6-EFREN_PUZZLE_1" name="6_ERFREN_PUZZLE_1">
+   <jump tag="5_EFREN" id="forward" />
+   <jump tag="5_EFREN" id="back" />
+  </item>
+  <item id="6-EFREN_PUZZLE_2" name="6_ERFREN_PUZZLE_2">
+   <jump tag="5_EFREN" id="forward" />
+   <jump tag="5_EFREN" id="back" />
+  </item>
+  <item id="6_PUZZLE_EFREN_3" name="6_ERFREN_PUZZLE_3">
+   <jump tag="5_EFREN" id="forward" />
+   <jump tag="5_EFREN" id="back" />
+  </item>
+  <item id="7-sopapo_1" name="7-Sopapo_Efren_1">
+   <jump tag="5_EFREN" id="forward" />
+   <jump tag="5_EFREN" id="back" />
+  </item>
+  <item id="7-Sopapo_Efren_2" name="7- Sopapo_Efren_2">
+   <jump tag="5_EFREN" id="forward" />
+  </item>
+  <item id="7-Sopapo_Efren_3" name="7- Sopapo_Efren_3">
+   <jump tag="4_Lista de Actividades" id="forward" />
+   <jump tag="5_EFREN" id="back" />
+  </item>
+  <item id="8-Berta" name="8- Berta">
+   <jump tag="4_Lista de Actividades" id="forward" />
+   <jump tag="4_Lista de Actividades" id="back" />
+  </item>
+  <item id="8-Juego de memoria_Berta_1" name="8- Juego de memoria_Berta_1">
+   <jump tag="8-Berta" id="forward" />
+   <jump tag="8-Berta" id="back" />
+  </item>
+  <item id="8-Juego de memoria_Berta_2" name="8- Juego de memoria_Berta_2">
+   <jump tag="8-Berta" id="forward" />
+   <jump tag="8-Berta" id="back" />
+  </item>
+  <item id="8-Juego de memoria_Berta_3" name="8- Juego de memoria_Berta_3">
+   <jump tag="8-Berta" id="forward" />
+   <jump tag="8-Berta" id="back" />
+  </item>
+  <item id="9- Puzzle_Berta_1" name="9- Puzzle_Berta_1">
+   <jump tag="8-Berta" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+  <item id="9- Puzzle_Berta_2" name="9- Puzzle_Berta_2">
+   <jump tag="8-Berta" id="forward" />
+   <jump tag="8-Berta" id="back" />
+  </item>
+  <item id="9- Puzzle_Berta_3" name="9- Puzzle_Berta_3">
+   <jump tag="8-Berta" id="forward" />
+   <jump tag="8-Berta" id="back" />
+  </item>
+  <item id="10- Aso Simple_Berta_1" name="10- Aso Simple_Berta_1">
+   <jump tag="8-Berta" id="forward" />
+   <jump tag="8-Berta" id="back" />
+  </item>
+  <item id="10- Aso Simple_Berta_2" name="10- Aso Simple_Berta_2">
+   <jump tag="8-Berta" id="forward" />
+   <jump tag="8-Berta" id="back" />
+  </item>
+  <item id="10- Aso Simple_Berta_3" name="10- Aso Simple_Berta_3">
+   <jump tag="4_Lista de Actividades" id="forward" />
+   <jump tag="8-Berta" id="back" />
+  </item>
+  <item id="11- Francisco" name="11- Francisco">
+   <jump tag="4_Lista de Actividades" id="forward" />
+   <jump tag="4_Lista de Actividades" id="back" />
+  </item>
+  <item id="11- Aso Compleja_Francicso_1" name="11- Aso Compleja_Francisco_1">
+   <jump tag="11- Francisco" id="forward" />
+   <jump tag="11- Francisco" id="back" />
+  </item>
+  <item id="11- Aso Compleja_Francicso_2" name="11- Aso Compleja_Francisco_2">
+   <jump tag="11- Francisco" id="forward" />
+   <jump tag="11- Francisco" id="back" />
+  </item>
+  <item id="11- Aso Compleja_Francicso_33" name="11- Aso Compleja_Francisco_3">
+   <jump tag="11- Francisco" id="forward" />
+   <jump tag="11- Francisco" id="back" />
+  </item>
+  <item id="12- Puzzle_Francicso_1" name="12- Puzzle_Francisco_1">
+   <jump tag="11- Francisco" id="forward" />
+   <jump tag="11- Francisco" id="back" />
+  </item>
+  <item id="12- Puzzle_Francicso_2" name="12- Puzzle_Francisco_2">
+   <jump tag="11- Francisco" id="forward" />
+   <jump tag="11- Francisco" id="back" />
+  </item>
+  <item id="12- Puzzle_Francicso_3" name="12- Puzzle_Francisco_3">
+   <jump tag="11- Francisco" id="forward" />
+   <jump tag="11- Francisco" id="back" />
+  </item>
+  <item id="13- Juego de memoria_Francisco_1" name="13- Juego de memoria_Francisco_1">
+   <jump tag="11- Francisco" id="back" />
+  </item>
+  <item id="13- Juego de memoria_Francisco_2" name="13- Juego de memoria_Francisco_2">
+   <jump tag="11- Francisco" id="forward" />
+   <jump tag="11- Francisco" id="back" />
+  </item>
+  <item id="13- Juego de memoria_Francisco_3" name="13- Juego de memoria_Francisco_3">
+   <jump tag="4_Lista de Actividades" id="forward" />
+   <jump tag="11- Francisco" id="back" />
+  </item>
+  <item id="14-Pantalla Final" name="14-Pantalla Final">
+   <jump tag="1 Pagina Principal" id="forward" />
+   <jump action="STOP" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="10- Aso Simple_Berta_1" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell image="Berta Rojas150-resized.jpg">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Berta Rojas 1500000-resized.jpg">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Berta Rojas 1500-resized.jpg">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="Berta Rojas - Un sueño en la floresta de Agustín Pío Barrios Mangoré.mp3" />
+    </cell>
+    <cell />
+    <cell />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="10- Aso Simple_Berta_2" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell image="Berta-Rojas-Facebook-resized3.jpg">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="berta_rojas.jpg">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Berta Rojas 15-resized.jpg">
+     <style>
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.SimpleAssociation" name="10- Aso Simple_Berta_3" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell image="BERTA 4.png" />
+    <cell image="Berta Rojas 150000-resized.jpg" />
+    <cell image="BERTAROJAS_1500000-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="11- Aso Compleja_Francisco_1" code="">
+   <description />
+   <messages />
+   <settings margin="8" maxTime="40" countDownTime="true" maxActions="5" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell id="0" image="Poncho de Francisco Russo.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Sobrero piri-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="francisco-russo-especial-senales-640x360-1.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+     <p>El encaje se teje en patrones complejos con hilos de algodón y se ensambla para formar el poncho. El resultado es una prenda ligera y elegante, acabada con bordes decorativos y a veces flecos</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Primero, los juncos se recogen y secan al sol. Luego, se seleccionan y tejen cuidadosamente para formar la corona y el ala del sombrero. Finalmente, se ajusta la forma y se añaden decoraciones como cintas o bordados.</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Aropuraheita Regimiento Trece</p>
+     <p>Nanawa de gloria jeroviahaité</p>
+     <p>Ha ityvyra'I, Regimiento Siete</p>
+     <p>La muralla viva mopu'ä haré</p>
+     <p>Ro'atama hágüi tesaráietépe</p>
+     <p>Peteí koëme ro ñeñanduká</p>
+     <p>Rohejá hagua ore ra'y répe</p>
+     <p>Pedestal de gloria omaé haguá</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="11- Aso Compleja_Francisco_2" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Che la Reina</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Noches De Asunción</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Ndéve Che Rasy</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Avy’a che la reina ndehegui,</p>
+     <p>ndéve ningo nemba’e che mborayhu.</p>
+     <p>Aikotevẽ niko che avy’a,</p>
+     <p>kóa ndaijojái la yvoty.</p>
+     <p>Ndei va’eraína cheresarai.</p>
+     <p>E’a nde rendápe che amoĩ,</p>
+     <p>ndéve che mborayhu añetegua,</p>
+     <p>eikuaa haguã che mborayhu.Ajeve ndéve ha’ehína,</p>
+     <p>nde che reja va’erã che mborayhu.</p>
+     <p>Ndéve voi la che aguije,</p>
+     <p>añangareko ne mba’e jeroviapy.</p>
+     <p>Che reja va’erã che rendápe,</p>
+     <p>mi rey, mi cherayhu,</p>
+     <p>che rendápe nde potĩva,</p>
+     <p>che remimo’ã ko che rembireko.</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Noche tropical,</p>
+     <p>la del querer,</p>
+     <p>de las bellas promesas de amor,</p>
+     <p>siento en el mirar</p>
+     <p>el despertar,</p>
+     <p>de un clavel encendido en mi soñar.Noches de Asunción,</p>
+     <p>todas en flor,</p>
+     <p>cuando sueña la luna en el jazmín,</p>
+     <p>y en tu embrujo de amor</p>
+     <p>quiero vivir,</p>
+     <p>Paraguay, mi país sin igual</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Ndéve che rasy, eporandu'asy</p>
+     <p>Mba'e piko la repojesareí,</p>
+     <p>Che retia'épe, nderesaráipe</p>
+     <p>Rehasa rei cherehe.Ne mbyasy meme, hasýva nde py'ápe,</p>
+     <p>Ani pio la nde aikuaágui,</p>
+     <p>Rehecharamoguáicha,</p>
+     <p>Nemandu'arã ogueraha.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@associations.ComplexAssociation" name="11- Aso Compleja_Francisco_3" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell id="0">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Rosa del Asunción</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Che Yvoty Morotĩ</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Che Py'a Rekovia</p>
+    </cell>
+   </cells>
+   <cells rows="3" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Asunción, jardín de flores,</p>
+     <p>eres tú la más hermosa,</p>
+     <p>pues en ti creció una rosa,</p>
+     <p>fragante como el amor.</p>
+     <p>Eres flor de un vergel,</p>
+     <p>de belleza sin fin,</p>
+     <p>rosa del Asunción,</p>
+     <p>flor de mi Paraguay.Rosa del Asunción,</p>
+     <p>tú eres mi pasión,</p>
+     <p>el fulgor de tu piel,</p>
+     <p>enciende mi querer.</p>
+     <p>Rosa del Asunción,</p>
+     <p>perfume de mi amor,</p>
+     <p>cuando llegue el dolor,</p>
+     <p>a tu lado estaré.</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Che yvoty morotĩ,</p>
+     <p>nde yvoty ha’a piko,</p>
+     <p>ahecháramo ne rembiapo</p>
+     <p>tuichaite oñangareko.</p>
+     <p>Nde yvoty morotĩ,</p>
+     <p>ete añete ha’e,</p>
+     <p>ahechávo che resápe</p>
+     <p>pytu’u peteĩ.Che yvoty morotĩ</p>
+     <p>joparára aguerohory,</p>
+     <p>nde jehe ha’e che renda</p>
+     <p>areta iporãvétama.</p>
+     <p>Che yvoty morotĩ,</p>
+     <p>añuãmba hag̃ua</p>
+     <p>yaikóva nde pype</p>
+     <p>kamby ha’e jo’o.</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="28" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Che py’a rekovia,</p>
+     <p>nde reko yvoty,</p>
+     <p>ha nde rory'ỹ</p>
+     <p>akãrasy yvoty.</p>
+     <p>Nderehe’ỹ nda ndoreko,</p>
+     <p>oiméne rema’ẽ.</p>
+     <p>Nde reko ohecha</p>
+     <p>porã ohecha.Che py’a rekovia,</p>
+     <p>nde reko mbyasy,</p>
+     <p>che rembiapo rasy</p>
+     <p>reime asy.</p>
+     <p>Ne mborayhu yma</p>
+     <p>ko’a mba’éi</p>
+     <p>ne pype che rekove</p>
+     <p>ha che angapo.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="11- Francisco" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="500.0" cellHeight="500.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCC0000" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="11- Aso Compleja_Francisco_1" />
+     <p>Aso Compleja_</p>
+     <p>Francisco_1</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCC0000" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="11- Aso Compleja_Francisco_2" />
+     <p>Aso Compleja_</p>
+     <p>Francisco_2</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0xFFFFFF" background="0xCC0000" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="11- Aso Compleja_Francisco_3" />
+     <p>Aso Compleja_</p>
+     <p>Francisco_3</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="12- Puzzle_Francisco_1" />
+     <p>Puzzle_Francisco_1</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0x333333" background="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="12- Puzzle_Francisco_2" />
+     <p>Puzzle_Francisco_2</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="12- Puzzle_Francisco_3" />
+     <p>Puzzle_Francisco_3</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color background="0x0000CC" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="13- Juego de memoria_Francisco_1" />
+     <p>Juego de Memoria_</p>
+     <p>Francisco_1</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color background="0x0000CC" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="13- Juego de memoria_Francisco_2" />
+     <p>Juego de Memoria_</p>
+     <p>Francisco_2</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color background="0x0000CC" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="13- Juego de memoria_Francisco_3" />
+     <p>Juego de Memoria_</p>
+     <p>Francisco_3</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="12- Puzzle_Francisco_1" code="">
+   <description />
+   <messages />
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="2" cols="5" border="true" image="francisco-russo-especial-senales-640x360-1.png">
+    <style />
+    <shaper class="@Rectangular" cols="5" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="12- Puzzle_Francisco_2" code="">
+   <description />
+   <messages />
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="2" cols="4" border="true" image="Imagen de WhatsApp 2024-03-14 a las 18.05.40_56fd0073-resized2.jpg">
+    <style />
+    <shaper class="@TriangularJigSaw" cols="4" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="12- Puzzle_Francisco_3" code="">
+   <description />
+   <messages />
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="3" cols="4" border="true" image="Francisco_Russo.jpg">
+    <style />
+    <shaper class="@TriangularJigSaw" cols="4" rows="3" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="13- Juego de memoria_Francisco_1" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Francisco 15.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Francisco 150-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Francisco Russo-resized3.jpg" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="13- Juego de memoria_Francisco_2" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Imagen de WhatsApp 2024-03-14 a las 18.05.40_56fd0073-resized2.jpg" />
+    <cell image="Francisco-Russo.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Francisco_Russo_02_850.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="13- Juego de memoria_Francisco_3" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Francisco Russo-resized3.jpg" />
+    <cell image="francisco-russo-especial-senales-640x360-1.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Francisco_Russo_02_850.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="14-Pantalla Final" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="250.0" cellHeight="250.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell image="Insignea Juan Pablo ll 2.0-resized.jpg" />
+    <cell image="Republica-del-Paraguay.png.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="1712190478851.png" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Desarrollador</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Coordinador</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Diseño Web</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Elaborador</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Música</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="26" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Primer Año</p>
+     <p>BTI</p>
+     <p> 2024</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="1_Pantalla principal" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="3.0" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0x3366FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="49" cycles="4" />
+     </style>
+     <p>Bienvenidos</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="300.0" cellHeight="300.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell image="logo_mec_2023-1036ed23a742e60990fcd3ba5ae2c618.png">
+     <style borderStroke="3.0" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" border="0xFF3333" />
+     </style>
+    </cell>
+    <cell image="Republica-del-Paraguay.png.png">
+     <style borderStroke="1.5" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" border="0xCCCCCC" />
+     </style>
+    </cell>
+    <cell image="Gobierno-del-Paraguay_png-transparente-resized.jpg">
+     <style borderStroke="2.4" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" border="0x3366FF" />
+     </style>
+    </cell>
+    <cell image="84573-banderas-amrica-paraguay-corazn.gif">
+     <style borderStroke="2.3" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" border="0xFF3333" />
+     </style>
+    </cell>
+    <cell>
+     <style borderStroke="2.2" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" border="0xCCCCCC" />
+     </style>
+    </cell>
+    <cell image="84573-banderas-amrica-paraguay-corazn.gif">
+     <style borderStroke="2.8" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" border="0x3366FF" />
+     </style>
+    </cell>
+    <cell>
+     <style borderStroke="2.6" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" border="0xFF3333" />
+     </style>
+    </cell>
+    <cell>
+     <style borderStroke="1.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" border="0xCCCCCC" />
+     </style>
+     <media type="PLAY_AUDIO" level="1" file="almaguarani.mp3" autoStart="true" />
+    </cell>
+    <cell>
+     <style borderStroke="2.4" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" border="0x3366FF" />
+     </style>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="2- Segunda Portada" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0x3366FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="49" cycles="4" />
+     </style>
+     <p>Información acerca de la Actividad</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="1" cellWidth="600.0" cellHeight="92.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="3" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" />
+      <color foreground="0xFFFFFF" background="0xFF3333" />
+     </style>
+     <p>Asignatura Música</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" />
+      <color foreground="0x3366FF" background="0xFFFFFF" />
+     </style>
+     <p>Artistas ilustres del Paraguay</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" />
+      <color foreground="0xFFFFFF" background="0x3366FF" />
+     </style>
+     <p>E.E.B</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.Explore" name="3.1 Efren" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0x3366FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="49" cycles="4" />
+     </style>
+     <p>Escucha la biografia de Efren Kamba´i</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell id="0">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFF3333" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Colocar audio de la biografia</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="efren 4.jpg">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Explore" name="3.2 Berta Rojas" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0x3366FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="49" cycles="4" />
+     </style>
+     <p>Conoce a Berta Rojas</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell id="0">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFF3333" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Colocar audio de la biografia</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="BERTA 1.png">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.Explore" name="3.3 Francisco Ruso" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0x3366FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="49" cycles="4" />
+     </style>
+     <p>Presiona para conocer a Francisco Ruso</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell id="0">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFF3333" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <p>Colocar audio de la biografia</p>
+    </cell>
+   </cells>
+   <cells rows="1" cols="1" cellWidth="300.0" cellHeight="300.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="1" />
+    <cell image="Francisco Russo-resized3.jpg">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" primary="false" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="3_Biografias" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0x3366FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="49" cycles="4" />
+     </style>
+     <p>Presiona el boton para conocerlos</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="667.0" cellHeight="131.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF3333" alternative="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="3.1 Efren" />
+     <p>Efren "Kamba´i" Echeverria</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFF3333" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="3.2 Berta Rojas" />
+     <p>Berta Rojas</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0x3366FF" alternative="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="3.3 Francisco Ruso" />
+     <p>Francisco Ruso</p>
+    </cell>
+    <cell>
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0x3366FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="49" cycles="4" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="4_ Lista de Actividades" />
+     <p>Presiona para ir a las actividades</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="4_ Lista de Actividades" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0x3366FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="49" cycles="4" />
+     </style>
+     <p>Selecciona a un Artista para realizar las actividades</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="4" cols="1" cellWidth="607.0" cellHeight="146.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="4" />
+    <cell>
+     <style>
+      <font family="Arial" size="48" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF3333" alternative="0xFFFFFF" />
+     </style>
+     <p>Elige a un Artista</p>
+    </cell>
+    <cell txtAlign="right,middle" imgAlign="left,middle" image="Efren 1.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="5_Efren" />
+     <p>Kamba´i</p>
+    </cell>
+    <cell txtAlign="left,middle" imgAlign="right,middle" image="BERTA 4.png">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="8- Berta" />
+     <p>Berta</p>
+    </cell>
+    <cell txtAlign="right,middle" imgAlign="left,middle" image="francisco-russo-especial-senales-640x360-1.png">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="11- Francisco" />
+     <p>Francisco</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@panels.InformationScreen" name="5_Efren" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF0033" dest="0xFFFFFF" angle="20" cycles="5" />
+     </style>
+     <p>SELECCIONA LAS ACTIVIDADES</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="198.0" cellHeight="137.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF0033" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="5_MEMO_EFREN 1" />
+     <p>MEMO_EFREN_1</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF0033" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="5_MEMO_EFREN_2" />
+     <p>MEMO_EFREN_2</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF0033" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="5_MEMO_EFREN_3" />
+     <p>MEMO_EFREN_3</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFF0033" background="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="6_ERFREN_PUZZLE_1" />
+     <p>EFREN_PUZZLE_1</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFF0033" background="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="6_ERFREN_PUZZLE_2" />
+     <p>EFREN_PUZZLE_2</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFF0033" background="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="6_ERFREN_PUZZLE_3" />
+     <p>EFREN_PUZZLE_3</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x0033FF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="7-Sopapo_Efren_1" />
+     <p>Sopapo 1</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x0033FF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="7- Sopapo_Efren_2" />
+     <p>Sopapo 2</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="36" bold="true" />
+      <color foreground="0xFFFFFF" background="0x0033FF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="7- Sopapo_Efren_3" />
+     <p>Sopapo 3</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="5_MEMO_EFREN 1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="49" cycles="4" />
+     </style>
+     <p>Encuentra el Par de Efren</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="32" cycles="4" />
+     </style>
+     <p>ERES UN GENIO DE LA MUSICA</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="32" cycles="4" />
+     </style>
+     <p>SIGUE INTENTANDO, LO LOGRARAS</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="221.0" cellHeight="266.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Efren 1.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="efren3.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="efren 4.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="5_MEMO_EFREN_2" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="efren-y-guyari063-resized1.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Efren 1.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Efrén Echeverría 1.jpg">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x3366FF" background="0xFFFFFF" alternative="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="5_MEMO_EFREN_3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="49" cycles="4" />
+     </style>
+     <p>Encuentra el Par de Efren</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="49" cycles="4" />
+     </style>
+     <p>BIEN!!! ERES UN CONOCEDOR DE NUESTRA CULTURA</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="49" cycles="4" />
+     </style>
+     <p>UY!!! LO SIENTO PRUEBA DE NUEVO</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Efrén Echeverría 1.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFF0033" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="efren 4.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFF0033" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="efren3.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFF0033" background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="6_ERFREN_PUZZLE_1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="32" cycles="4" />
+     </style>
+     <p>RESUELVE EL PUZLLE DE EFREN</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="32" cycles="4" />
+     </style>
+     <p>BIEN LO LOGRASTE, ERES UN GENIO</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="32" cycles="4" />
+     </style>
+     <p>FUERZA LA PROXIMA SERA TUYA, INTENTALO DE NUEVO</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="4" cols="4" border="true" image="Efren 1.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="4" rows="4" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="6_ERFREN_PUZZLE_2" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="32" cycles="4" />
+     </style>
+     <p>RESUELVE EL PUZLLE DE EFREN</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="32" cycles="4" />
+     </style>
+     <p>BIEN LO LOGRASTE, ERES UN GENIO</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="32" cycles="4" />
+     </style>
+     <p>FUERZA LA PROXIMA SERA TUYA, INTENTALO DE NUEVO</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="4" cols="4" border="true" image="efren3.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="4" rows="4" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="6_ERFREN_PUZZLE_3" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="32" cycles="4" />
+     </style>
+     <p>RESUELVE EL PUZLLE DE EFREN</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="32" cycles="4" />
+     </style>
+     <p>BIEN LO LOGRASTE, ERES UN GENIO</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3333" dest="0xFFFFFF" angle="32" cycles="4" />
+     </style>
+     <p>FUERZA LA PROXIMA SERA TUYA, INTENTALO DE NUEVO</p>
+    </cell>
+   </messages>
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="4" cols="4" border="true" image="efren-y-guyari063-resized.jpg">
+    <style />
+    <shaper class="@ClassicJigSaw" cols="4" rows="4" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="7- Sopapo_Efren_2" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <textGrid rows="15" columns="15" cellWidth="500.0" cellHeight="500.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>CANCIÓN********</row>
+     <row>***************</row>
+     <row>***************</row>
+     <row>***************</row>
+     <row>***************</row>
+     <row>********YRAUCAT</row>
+     <row>***************</row>
+     <row>***************</row>
+     <row>***************</row>
+     <row>***************</row>
+     <row>***************</row>
+     <row>NACIONAL*******</row>
+     <row>***************</row>
+     <row>***************</row>
+     <row>GUAMIA*********</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">CANCIÓN</clue>
+    <clue id="1">GUARANIA</clue>
+    <clue id="2">TACUARY</clue>
+    <clue id="3">NACIONAL</clue>
+    <clue id="4">ESTILO</clue>
+   </clues>
+   <cells rows="2" cols="2" cellWidth="999.0" cellHeight="999.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="7- Sopapo_Efren_3" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <textGrid rows="16" columns="16" cellWidth="500.0" cellHeight="500.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>CULTURA********P</row>
+     <row>***************O</row>
+     <row>***************E</row>
+     <row>***************T</row>
+     <row>***************A</row>
+     <row>GUARANI*********</row>
+     <row>****************</row>
+     <row>A***************</row>
+     <row>R***************</row>
+     <row>R***************</row>
+     <row>E***************</row>
+     <row>V***************</row>
+     <row>E***************</row>
+     <row>H***************</row>
+     <row>C***************</row>
+     <row>EFREN***********</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">EFREN</clue>
+    <clue id="1">ECHEVERRIA</clue>
+    <clue id="2">CULTURA</clue>
+    <clue id="3">POETA</clue>
+    <clue id="4">GUARANÍ</clue>
+   </clues>
+   <cells rows="2" cols="2" cellWidth="999.0" cellHeight="999.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@textGrid.WordSearch" name="7-Sopapo_Efren_1" code="">
+   <description />
+   <messages>
+    <cell type="initial">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3366" dest="0xFFFFFF" angle="49" cycles="5" />
+     </style>
+     <p>Encuentra las canciones, Mosiones Ñu, Kilometro 11, Paraguari, Arroyo y Esteros</p>
+    </cell>
+    <cell type="final">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3366" dest="0xFFFFFF" angle="49" cycles="5" />
+     </style>
+     <p>Lo Lograste!!! Eres un conocedor de nuestra cultura</p>
+    </cell>
+    <cell type="finalError">
+     <style>
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0x0033FF" />
+      <gradient source="0xFF3366" dest="0xFFFFFF" angle="49" cycles="5" />
+     </style>
+     <p>Sigue intentando</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <textGrid rows="15" columns="15" cellWidth="62.0" cellHeight="43.0" border="true">
+    <style>
+     <color background="0xFFFFFF" />
+    </style>
+    <text>
+     <row>*************M*</row>
+     <row>*************I*</row>
+     <row>*************S*</row>
+     <row>*************I*</row>
+     <row>*************O*</row>
+     <row>*KILOMETRO11*N*</row>
+     <row>*************E*</row>
+     <row>*************S*</row>
+     <row>*************Ñ*</row>
+     <row>*************U*</row>
+     <row>PARAGUARI******</row>
+     <row>***************</row>
+     <row>***************</row>
+     <row>ARROYOYESTEROS*</row>
+     <row>***************</row>
+    </text>
+   </textGrid>
+   <clues>
+    <clue id="0">ARROYOYESTEROS</clue>
+    <clue id="1">KILOMETRO11</clue>
+    <clue id="2">MISIONESÑU</clue>
+    <clue id="3">PARAGUARI</clue>
+   </clues>
+   <cells rows="2" cols="2" cellWidth="293.0" cellHeight="180.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="2" rows="2" />
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="04 ARROYOS Y ESTEROS - EFREN ECHEVERRIA.mp3" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="07 KILOMETRO 11 - EFREN ECHEVERRIA.mp3" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="05 MISIONES NU - EFREN ECHEVERRIA.mp3" />
+    </cell>
+    <cell>
+     <media type="PLAY_AUDIO" level="1" file="09 PARAGUARI - EFREN ECHEVERRIA.mp3" />
+    </cell>
+   </cells>
+   <layout position="AB" />
+  </activity>
+  <activity class="@panels.InformationScreen" name="8- Berta" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="3" cols="3" cellWidth="300.0" cellHeight="300.0" border="true">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="3" />
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF0033" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="8- Juego de memoria_Berta_1" />
+     <p>Juego de Memoria_</p>
+     <p>Berta_1</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF0033" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="8- Juego de memoria_Berta_2" />
+     <p>Juego de Memoria_</p>
+     <p>Berta_2</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFF0033" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="8- Juego de memoria_Berta_3" />
+     <p>Juego de Memoria_</p>
+     <p>Berta_3</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="9- Puzzle_Berta_1" />
+     <p>Puzzle_Berta_1</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="9- Puzzle_Berta_2" />
+     <p>Puzzle_Berta_2</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="9- Puzzle_Berta_3" />
+     <p>Puzzle_Beta_3</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color background="0x0000CC" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="10- Aso Simple_Berta_1" />
+     <p>Aso Simple_</p>
+     <p>Berta_1</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color background="0x0000CC" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="10- Aso Simple_Berta_2" />
+     <p>Aso Simple_</p>
+     <p>Berta_2</p>
+    </cell>
+    <cell>
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="22" bold="true" />
+      <color background="0x0000CC" />
+     </style>
+     <media type="RUN_CLIC_ACTIVITY" level="1" file="10- Aso Simple_Berta_3" />
+     <p>Aso Simple_</p>
+     <p>Berta_3</p>
+    </cell>
+   </cells>
+  </activity>
+  <activity class="@memory.MemoryGame" name="8- Juego de memoria_Berta_1" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="berta_rojas.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="BERTAROJAS_1500000-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Imagen de WhatsApp 2024-03-14 a las 18.15.07_5eda30ed-resized2.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="8- Juego de memoria_Berta_2" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Berta Rojas 15-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="berta-rojas-da-a-conocer-su-nuevo-album-salsa-roja-_518_315_213127 (1).jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Berta-Rojas-Facebook-resized3.jpg" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@memory.MemoryGame" name="8- Juego de memoria_Berta_3" code="">
+   <description />
+   <messages />
+   <settings margin="8" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="1" cols="3" cellWidth="300.0" cellHeight="300.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="3" rows="1" />
+    <cell image="Berta Rojas 1500-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="Berta Rojas 150000-resized.jpg">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell image="BERTA 4.png">
+     <style borderStroke="0.7" markerStroke="5.0">
+      <font family="Arial" size="72" bold="true" />
+      <color foreground="0xFFFFFF" background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="9- Puzzle_Berta_1" code="">
+   <description />
+   <messages />
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="2" cols="5" border="true" image="Berta Rojas 1500-resized.jpg">
+    <style />
+    <shaper class="@JigSaw" cols="5" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="9- Puzzle_Berta_2" code="">
+   <description />
+   <messages />
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="2" cols="4" border="true" image="Berta Rojas 1500000-resized.jpg">
+    <style />
+    <shaper class="@TriangularJigSaw" cols="4" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+  <activity class="@puzzles.DoublePuzzle" name="9- Puzzle_Berta_3" code="">
+   <description />
+   <messages />
+   <settings margin="8" dragCells="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" transparent="true" border="true" />
+   </settings>
+   <cells rows="2" cols="5" border="true" image="BERTAROJAS_1500000-resized.jpg">
+    <style />
+    <shaper class="@TriangularJigSaw" cols="5" rows="2" />
+   </cells>
+   <scramble times="31" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="84573-banderas-amrica-paraguay-corazn.gif" file="84573-banderas-amrica-paraguay-corazn.gif" animated="true" />
+  <media name="Berta Rojas 15-resized.jpg" file="berta_rojas_15-resized.jpg" />
+  <media name="Berta Rojas 1500-resized.jpg" file="berta_rojas_1500-resized.jpg" />
+  <media name="Berta Rojas 150000-resized.jpg" file="berta_rojas_150000-resized.jpg" />
+  <media name="Berta Rojas 1500000-resized.jpg" file="berta_rojas_1500000-resized.jpg" />
+  <media name="Berta Rojas150-resized.jpg" file="berta_rojas150-resized.jpg" />
+  <media name="berta-rojas-da-a-conocer-su-nuevo-album-salsa-roja-_518_315_213127 (1).jpg" file="berta-rojas-da-a-conocer-su-nuevo-album-salsa-roja-_518_315_213127__1_.jpg" />
+  <media name="Berta-Rojas-Facebook-resized3.jpg" file="berta-rojas-facebook-resized3.jpg" />
+  <media name="berta_rojas.jpg" file="berta_rojas.jpg" />
+  <media name="BERTAROJAS_1500000-resized.jpg" file="bertarojas_1500000-resized.jpg" />
+  <media name="Efren 1.jpg" file="efren_1.jpg" />
+  <media name="efren 4.jpg" file="efren_4.jpg" />
+  <media name="efren-y-guyari063-resized.jpg" file="efren-y-guyari063-resized.jpg" />
+  <media name="efren-y-guyari063-resized1.jpg" file="efren-y-guyari063-resized1.jpg" />
+  <media name="efren3.jpg" file="efren3.jpg" />
+  <media name="Efrén Echeverría 1.jpg" file="efren_echeverria_1.jpg" />
+  <media name="Efrén Echeverría.jpg" file="efren_echeverria.jpg" />
+  <media name="Fracisco Russo-resized3.jpg" file="fracisco_russo-resized3.jpg" />
+  <media name="Francisco 15.jpg" file="francisco_15.jpg" />
+  <media name="Francisco 150-resized.jpg" file="francisco_150-resized.jpg" />
+  <media name="Francisco Russo-resized3.jpg" file="francisco_russo-resized3.jpg" />
+  <media name="Francisco-Russo.jpg" file="francisco-russo.jpg" />
+  <media name="Francisco_Russo.jpg" file="francisco_russo.jpg" />
+  <media name="Francisco_Russo_02_850.jpg" file="francisco_russo_02_850.jpg" />
+  <media name="Gobierno-del-Paraguay_png-transparente-resized.jpg" file="gobierno-del-paraguay_png-transparente-resized.jpg" />
+  <media name="Imagen de WhatsApp 2024-03-14 a las 18.05.40_56fd0073-resized2.jpg" file="imagen_de_whatsapp_2024-03-14_a_las_18.05.40_56fd0073-resized2.jpg" />
+  <media name="Imagen de WhatsApp 2024-03-14 a las 18.05.40_56fd0073-resized3.jpg" file="imagen_de_whatsapp_2024-03-14_a_las_18.05.40_56fd0073-resized3.jpg" />
+  <media name="Imagen de WhatsApp 2024-03-14 a las 18.15.07_5eda30ed-resized2.jpg" file="imagen_de_whatsapp_2024-03-14_a_las_18.15.07_5eda30ed-resized2.jpg" />
+  <media name="Insignea Juan Pablo ll 2.0-resized.jpg" file="insignea_juan_pablo_ll_2.0-resized.jpg" />
+  <media name="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" file="pngtree-flag-of-paraguay-with-old-texture-republic-national-standard-photo-image_18009968-resized2.jpg" />
+  <media name="Poncho de Francisco Russo.jpg" file="poncho_de_francisco_russo.jpg" />
+  <media name="Sobrero piri-resized.jpg" file="sobrero_piri-resized.jpg" />
+  <media name="04 ARROYOS Y ESTEROS - EFREN ECHEVERRIA.mp3" file="04_arroyos_y_esteros_-_efren_echeverria.mp3" />
+  <media name="05 MISIONES NU - EFREN ECHEVERRIA.mp3" file="05_misiones_nu_-_efren_echeverria.mp3" />
+  <media name="07 KILOMETRO 11 - EFREN ECHEVERRIA.mp3" file="07_kilometro_11_-_efren_echeverria.mp3" />
+  <media name="09 PARAGUARI - EFREN ECHEVERRIA.mp3" file="09_paraguari_-_efren_echeverria.mp3" />
+  <media name="almaguarani.mp3" file="almaguarani.mp3" />
+  <media name="Berta Rojas - Un sueño en la floresta de Agustín Pío Barrios Mangoré.mp3" file="berta_rojas_-_un_sueno_en_la_floresta_de_agustin_pio_barrios_mangore.mp3" />
+  <media name="Berta Rojas plays El Ultimo Canto by Agustin Barrios.mp3" file="berta_rojas_plays_el_ultimo_canto_by_agustin_barrios.mp3" />
+  <media name="Berta Rojas plays Julia Florida.mp3" file="berta_rojas_plays_julia_florida.mp3" />
+  <media name="Berta Rojas plays Sueño en la Floresta.mp3" file="berta_rojas_plays_sueno_en_la_floresta.mp3" />
+  <media name="Salsa Roja (From Fiesta Americana).mp3" file="salsa_roja__from_fiesta_americana_.mp3" />
+  <media name="1712190478851.png" file="1712190478851.png" />
+  <media name="BERTA 1.png" file="berta_1.png" />
+  <media name="BERTA 4.png" file="berta_4.png" />
+  <media name="F:/ARTEPYGAME/logo mec.png" file="f__artepygame_logo_mec.png" />
+  <media name="francisco-russo-especial-senales-640x360-1.png" file="francisco-russo-especial-senales-640x360-1.png" />
+  <media name="logo_mec_2023-1036ed23a742e60990fcd3ba5ae2c618.png" file="logo_mec_2023-1036ed23a742e60990fcd3ba5ae2c618.png" />
+  <media name="Republica-del-Paraguay.png.png" file="republica-del-paraguay.png.png" />
+ </mediaBag>
+</JClicProject>
+
